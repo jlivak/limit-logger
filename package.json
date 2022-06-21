@@ -1,0 +1,41 @@
+{
+  "name": "limit-logger",
+  "version": "1.0.0",
+  "description": "A tiny TypeScript library that lets you put limits on how frequently console.log is called.  Useful for debugging animation loops.",
+  "main": "out/limit-logger.js",
+  "types": "out/limit-logger.d.js",
+  "scripts": {
+    "build": "tsc --outDir out",
+    "lint": "eslint src/limit-logger.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlivak/limit-logger.git"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "warning",
+    "error",
+    "limit",
+    "logger",
+    "canvas",
+    "animation"
+    "debug",
+    "info"
+  ],
+  "author": "jlivak",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/jlivak/limit-logger/issues"
+  },
+  "homepage": "https://github.com/jlivak/limit-logger#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.7.0",
+    "eslint-plugin-jsdoc": "^39.3.3",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "typescript": "^4.7.4"
+  }
+}
