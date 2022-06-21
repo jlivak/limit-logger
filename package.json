@@ -1,6 +1,6 @@
 {
   "name": "limit-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny TypeScript library that lets you put limits on how frequently console.log is called.  Useful for debugging animation loops.",
   "main": "out/limit-logger.js",
   "types": "out/limit-logger.d.js",
@@ -20,7 +20,7 @@
     "limit",
     "logger",
     "canvas",
-    "animation"
+    "animation",
     "debug",
     "info"
   ],
