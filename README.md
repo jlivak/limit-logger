@@ -1,8 +1,8 @@
 # Limit Logger (limit-logger)
 
-[![License](https://img.shields.io/npm/l/limit-logger)](https://github.com/jlivak/limit-logger/blob/master/LICENSE) [![NPM Version](https://img.shields.io/npm/v/limit-logger)](https://npmjs.com/package/limit-logger)
+[![License](https://img.shields.io/github/license/jlivak/limit-logger)](https://github.com/jlivak/limit-logger/blob/master/LICENSE) [![NPM Version](https://img.shields.io/npm/v/limit-logger)](https://npmjs.com/package/limit-logger)
 
-Limit Logger is a small library that exposes common console logging functions with a minimum frequency, subsequent calls within the given frequency are discarded.  This allows you to avoid flooding the console with logging statements.
+Limit Logger is a small library that exposes common console logging functions with an added minimum frequency parameter.  Subsequent calls that happen before the given frequency is elapsed are discarded.  This allows you to avoid flooding the console with logging statements.
 
 The main inspiration for writing this is while working with 2D/3D canvas rendering and animation loops (for ex. with `Window.requestAnimationFrame()`) and wanting to log debug output, but only needing it once every second and not once every frame.
 
